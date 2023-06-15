@@ -1,6 +1,10 @@
 html, body {
     padding: 0;
     margin: 0;
+    background-image: url("sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 #header .topo{
@@ -10,4 +14,20 @@ html, body {
     display: flex;
     gap: 15px;
     padding: 0 20px;
+    text-align: right;
+}
+
+#header .topo p {
+    margin-bottom: -15px;
+    margin-left: 960px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
 }

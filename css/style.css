@@ -1,6 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;    
+    font-family: 'Noto Serif', serif;
 }
 
 #header .topo{
@@ -31,6 +32,7 @@ html, body {
     width: 280px;
     height: 270px;
     display: inline-flex;
+    flex-direction:column;
     border: 2px solid red;
     text-align: center;
 }
@@ -40,11 +42,25 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .quadro .infos #data {
-    color: aquamarine;
-    margin-top: 30px;
+    color: rgb(241, 145, 34);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.quadro .infos #tempMin {
+    text-align:start ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.quadro .infos #tempMax {
+    text-align:end ;
+    margin-top: -25px;
+    margin-bottom: 5px;
 }
 
 

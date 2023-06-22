@@ -63,6 +63,11 @@ html, body {
     margin-bottom: 5px;
 }
 
+.quadro .infos img {
+    width: 50%;
+    margin-top: 15px;
+}
+
 
 footer {
     position: absolute;

@@ -1,10 +1,6 @@
 html, body {
     padding: 0;
-    margin: 0;
-    background-image: url("sky.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    
+    margin: 0;    
 }
 
 #header .topo{
@@ -21,6 +17,36 @@ html, body {
     margin-bottom: -15px;
     margin-left: 960px;
 }
+
+.quadro {
+    margin: 40px 40px;
+    height: 600px;
+    width: auto;
+    text-align: center;
+}
+
+.quadro .infos {
+    margin: 5px;
+    padding: 10px;
+    width: 280px;
+    height: 270px;
+    display: inline-flex;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.quadro .infos h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.quadro .infos #data {
+    color: aquamarine;
+    margin-top: 30px;
+}
+
 
 footer {
     position: absolute;

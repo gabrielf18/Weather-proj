@@ -142,18 +142,25 @@ html, body {
     margin-bottom: 5px;
 }
 
+.quadro .infos #temp {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    bottom: 70px;
+}
+
 .quadro .infos #humidade {
     position: absolute;
     right: 0px;
     margin-right: 10px;
-    bottom: 80px;
+    bottom: 40px;
 }
 
 .quadro .infos #desc {
     position: absolute;
     right: 0px;
     margin-right: 10px;
-    bottom: 50px;
+    bottom: 10px;
 }
 
 .quadro .infos img {

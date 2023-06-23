@@ -113,6 +113,7 @@ html, body {
     flex-direction:column;
     border: 2px solid rgb(115, 255, 0);
     text-align: center;
+    position: relative;
 }
 
 .quadro .infos h1 {
@@ -139,6 +140,20 @@ html, body {
     text-align:end ;
     margin-top: -25px;
     margin-bottom: 5px;
+}
+
+.quadro .infos #humidade {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    bottom: 80px;
+}
+
+.quadro .infos #desc {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    bottom: 50px;
 }
 
 .quadro .infos img {

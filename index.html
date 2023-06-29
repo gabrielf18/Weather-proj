@@ -16,15 +16,16 @@
     </header>
     <div class="container">
         <div class="searchInput">
-          <input type="text" placeholder="Cidade">
+          <input type="text" placeholder="Cidade" id="cidade">
           <div class="resultBox">
             <!-- here list are inserted from javascript -->
             <li>teste</li>
           </div>
           <div class="icon"><i class="fas fa-search"></i></div>
         </div>
+        <button onclick="handleAddTicker()">Encontrar</button>
     </div>
-    <div class="quadro">
+    <div class="quadro" id="quadros">
         <div class="infos">
             <h1>São Paulo - SP</h1>
             <p id="data">Data: 01/01</p>
@@ -35,5 +36,7 @@
             <p id="desc">Ensolarado</p>
             <p id="temp">Temp atual: 40 c°</p>
         </div>
+        <script src="js/main.js"></script>
+    </div>
 </body>
 </html>

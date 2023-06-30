@@ -29,6 +29,7 @@ const handleAddTicker = async (event) => {
             const newTicker = ` 
                 <div class="infos">
                     <h1>${nome}</h1>
+                    <button id="fechar" onclick="fechar()">X</button>
                     <p id="data">Data: ${date}</p>
                     <p id="tempMin">Temp min: ${forecast[0].min}C°</p>
                     <p id="tempMax">Temp max: ${forecast[0].max}C°</p>
@@ -46,4 +47,10 @@ const handleAddTicker = async (event) => {
     } catch(error){
         alert(error)
     }
+}
+
+const fechar = () => {
+    const info = document.getElementById("fechar");
+    const ticker = info.closest('.infos')
+    ticker.remove()    
 }

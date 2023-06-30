@@ -13,11 +13,14 @@ const handleAddTicker = async (event) => {
         const code = data["results"]["condition_code"]
         let imagem
         console.log(code)
-        /*if (code == 0 || code == 1 || code == 9 || code == 11 || code == 12 || code == 40 || code == 45 || code == 47 || code == 37){
-            const imagem = "/wheather-project/img/rain.png"
-        }*/
-        if(code==28 || code == 29){
+        if(code == 45){
+            imagem = "/wheather-project/img/rain.png"
+        }
+        else if(code == 28) {
             imagem = "/wheather-project/img/cloudy.png"
+        }
+        else if(code == 29 || code == 30){
+            imagem = "/wheather-project/img/cloudy-sun.png"
         }else{
             imagem = "/wheather-project/img/sun.png"
         }
